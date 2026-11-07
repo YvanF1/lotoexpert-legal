@@ -1,56 +1,154 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Politique de Confidentialité - LotoExpert</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 24px; background: #f9fafb; }
-        .card { background: #fff; padding: 32px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
-        h1 { color: #1e293b; border-bottom: 2px solid #e2e8f0; padding-bottom: 12px; font-size: 24px; }
-        h2 { color: #334155; margin-top: 24px; font-size: 18px; }
-        p, li { color: #475569; font-size: 14px; }
-        .badge { display: inline-block; padding: 4px 10px; background: #e0f2fe; color: #0369a1; border-radius: 9999px; font-size: 12px; font-weight: 600; margin-bottom: 16px; }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LotoExpert — Politique de confidentialité</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font: 16px/1.65 system-ui, sans-serif; max-width: 900px; margin: auto; padding: 24px; }
+    h1, h2 { line-height: 1.25; }
+    h2 { margin-top: 1.8em; font-size: 1.2rem; }
+    a { color: #6366f1; overflow-wrap: anywhere; }
+  </style>
 </head>
 <body>
-    <div class="card">
-        <span class="badge">LotoExpert • Mentions Légales</span>
-        <h1>Politique de Confidentialité</h1>
-        <p><strong>Dernière mise à jour :</strong> Novembre 2026</p>
+<main>
+  <h1>Politique de confidentialité de LotoExpert</h1>
+  <p><strong>Dernière mise à jour :</strong> 7 novembre 2026.</p>
+  <p>LotoExpert est une application d’analyse statistique de tirages de loterie et de suivi personnel de tickets.
+    Cette politique explique les traitements de données liés à son utilisation sur mobile et ordinateur.</p>
 
-        <p>La présente politique de confidentialité décrit la façon dont <strong>LotoExpert</strong> collecte, utilise et protège vos informations lorsque vous utilisez notre application mobile et de bureau.</p>
+  <h2>1. Qui est responsable de vos données ?</h2>
+  <p>Le responsable du traitement est <strong>Yvan Caruso</strong>, qui exploite LotoExpert à titre individuel et est établi en <strong>Suisse</strong>.
+    Pour toute question ou demande concernant vos données, écrivez à
+    <a href="mailto:YvanF1@gmail.com">YvanF1@gmail.com</a>.</p>
 
-        <h2>1. Responsable du traitement</h2>
-        <p>L'application LotoExpert est développée et exploitée en tant qu'outil d'analyse statistique et de gestion personnelle de tirages de loterie.</p>
+  <h2>2. Quelles données sont utilisées ?</h2>
+  <ul>
+    <li><strong>Sur votre appareil :</strong> grilles, tickets, résultats et gains renseignés, numéros favoris et préférences.
+      L’utilisation sans compte conserve ces données localement. Les fichiers de sauvegarde que vous exportez
+      sont enregistrés ou partagés à votre initiative.</li>
+    <li><strong>Si vous créez un compte :</strong> adresse e-mail, identifiant de compte, langue et informations
+      d’authentification gérées avec Supabase Auth. Les jetons de session permettent de maintenir votre connexion.</li>
+    <li><strong>Pour synchroniser vos données :</strong> tickets et préférences associés à votre compte, lorsque vos droits
+      d’accès autorisent leur synchronisation.</li>
+    <li><strong>Pour gérer les appareils et la sécurité :</strong> identifiant d’installation, nom de l’appareil,
+      plateforme, session de connexion et date de dernière activité. Le nombre d’appareils autorisés dépend de vos droits.</li>
+    <li><strong>Pour gérer l’accès Pro :</strong> état et échéances de vos droits, essai découverte et nombre de pass déjà utilisés.</li>
+  </ul>
+  <p>Les services techniques peuvent également traiter des informations de connexion, notamment l’adresse IP,
+    pour acheminer les requêtes et assurer leur sécurité.</p>
 
-        <h2>2. Données collectées</h2>
-        <p>Nous limitons la collecte de données au strict nécessaire au bon fonctionnement du service :</p>
-        <ul>
-            <li><strong>Données de compte :</strong> Adresse e-mail et identifiant de compte sécurisé (via Supabase Auth) si vous choisissez de créer un compte pour synchroniser vos données.</li>
-            <li><strong>Tickets et préférences :</strong> Les grilles de jeu enregistrées, tickets archivés et préférences d'affichage sont synchronisés sur votre espace personnel chiffré.</li>
-            <li><strong>Données d'appareils :</strong> Nom convivial de l'appareil (ex: PC, Smartphone) et plateforme (Android, Windows, iOS) pour la gestion de la limite de 3 appareils autorisés.</li>
-            <li><strong>Données de facturation :</strong> Les paiements et abonnements sont traités directement et exclusivement par les boutiques officielles (Google Play Store, Apple App Store, Microsoft Store). LotoExpert ne stocke et n'a jamais accès à vos coordonnées bancaires ou numéros de carte de crédit.</li>
-        </ul>
+  <h2>3. Pourquoi ces données sont-elles traitées ?</h2>
+  <p>Nous les utilisons pour fournir les fonctions demandées : enregistrer et retrouver vos tickets, calculer leurs
+    résultats, synchroniser les données autorisées, authentifier votre compte et gérer ses accès. Nous les utilisons
+    aussi pour sécuriser le service, prévenir les abus et répondre à vos demandes.</p>
+  <p>Lorsque le RGPD s’applique, la fourniture des fonctions de compte repose sur l’exécution du service demandé ;
+    les traitements nécessaires à sa sécurité et à la prévention des abus reposent sur l’intérêt légitime à protéger
+    le service et ses utilisateurs. Le consentement est recueilli pour les traitements publicitaires qui le nécessitent.
+    Une obligation légale peut justifier la conservation d’informations déterminées lorsqu’elle est applicable.</p>
 
-        <h2>3. Utilisation des données</h2>
-        <p>Vos données sont exclusivement utilisées pour :</p>
-        <ul>
-            <li>Permettre la synchronisation de vos grilles et tickets entre vos différents appareils.</li>
-            <li>Vérifier la validité de votre accès Pro (mensuel ou annuel).</li>
-            <li>Calculer vos gains personnels et l'historique de vos tirages.</li>
-        </ul>
-        <p><strong>Nous ne vendons, ne louons et ne transmettons aucune donnée personnelle à des tiers ou à des régies publicitaires.</strong></p>
+  <h2>4. Publicités récompensées — fonction prévue</h2>
+  <p><strong>Les annonces ne sont pas encore activées dans la version de développement décrite ici.</strong>
+    LotoExpert prépare un Pass Découverte permettant d’obtenir 30 minutes d’accès Pro après deux vidéos récompensées,
+    dans la limite d’une activation par semaine et de cinq activations au total par compte.</p>
+  <p>Lorsque cette fonction sera disponible sur Android, les annonces seront fournies par <strong>Google AdMob</strong>.
+    Selon la configuration et vos choix de confidentialité, Google pourra traiter des identifiants d’appareil ou
+    publicitaires, l’adresse IP, des informations techniques et des interactions avec les annonces, pour leur diffusion,
+    leur mesure et la prévention de la fraude. Ces données ne sont pas limitées à votre adresse e-mail de compte.</p>
+  <p>Pour confirmer les vidéos, un identifiant de compte et un identifiant temporaire de session publicitaire seront
+    communiqués à Google. Le serveur LotoExpert recevra ensuite une confirmation signée comprenant notamment la
+    transaction publicitaire, son horodatage et sa récompense. Ces identifiants permettent de rattacher le crédit à
+    votre compte : ils ne sont pas présentés comme des données anonymes.</p>
+  <p>Avant activation, l’application intégrera le mécanisme de consentement et l’accès aux choix de confidentialité.
+    Vous pourrez accepter ou refuser les traitements proposés et modifier ou retirer votre consentement depuis
+    l’application. Le choix de regarder une vidéo est distinct du consentement publicitaire. Le refus du consentement
+    ne supprimera pas votre compte et n’empêchera pas l’utilisation des fonctions gratuites ; la disponibilité des
+    annonces dépendra des choix autorisés et de la disponibilité du fournisseur.</p>
+  <p>Informations complémentaires :
+    <a href="https://policies.google.com/privacy">politique de confidentialité Google</a> et
+    <a href="https://policies.google.com/technologies/ads">technologies publicitaires Google</a>.</p>
 
-        <h2>4. Sécurité des données</h2>
-        <p>Toutes les communications entre l'application et nos serveurs sont protégées par chiffrement HTTPS/TLS. L'accès à vos données dans la base de données est sécurisé par des politiques d'isolation au niveau des lignes (Row Level Security - RLS).</p>
+  <h2>5. Abonnements et paiements — fonctions prévues</h2>
+  <p>Les achats et leur restauration ne sont pas encore activés. Lorsqu’ils seront disponibles, les paiements seront
+    traités par la boutique concernée. LotoExpert utilisera les références de transaction et les informations nécessaires
+    à la vérification des achats, aux renouvellements et à la gestion des droits Pro. Le traitement de vos coordonnées
+    bancaires relèvera du fournisseur de paiement de la boutique ; l’application n’a pas vocation à les collecter.</p>
+  <p>La présente politique sera actualisée selon les boutiques et les parcours effectivement intégrés avant leur mise en service.</p>
 
-        <h2>5. Suppression de vos données</h2>
-        <p>Conformément au RGPD et aux exigences des Stores, vous pouvez à tout moment supprimer l'intégralité de vos données et votre compte directement depuis l'application dans <em>Paramètres > Données & Compte > Supprimer mon compte</em>.</p>
+  <h2>6. Qui reçoit ces données et où sont-elles traitées ?</h2>
+  <p>Les données nécessaires au compte et à la synchronisation sont traitées avec <strong>Supabase</strong>, prestataire
+    technique d’authentification et de base de données. Pour les fonctions publicitaires et les achats, Google AdMob
+    et les boutiques concernées traiteront aussi les données nécessaires à leur rôle lorsqu’ils seront activés.
+    Nous ne vendons pas vos tickets ni votre adresse e-mail.</p>
+  <p>La politique publique est hébergée sur GitHub Pages. Sa consultation implique des requêtes vers cet hébergeur,
+    distinctes de l’utilisation de l’application.</p>
+  <p>La base de données du projet Supabase est hébergée dans la région <strong>West EU (Ireland),
+    eu-west-1</strong>, en Irlande, dans l’Union européenne. Ce choix de région ne signifie pas que tous les
+    traitements des prestataires, notamment ceux liés au support ou aux futures publicités, restent dans ce territoire.</p>
+  <p>Le cadre contractuel publié par <strong>Supabase Pte. Ltd., à Singapour</strong>, prévoit que Supabase traite
+    les données des applications pour le compte de leur exploitant. Des traitements complémentaires peuvent impliquer
+    Supabase ou ses sous-traitants dans d’autres pays, notamment aux États-Unis, à Singapour et en Hongrie, selon les
+    services concernés. La liste de ces prestataires ne signifie pas que chaque prestataire reçoit tous vos tickets.</p>
+  <p>Pour les transferts concernés, l’annexe de traitement des données de Supabase prévoit des clauses contractuelles
+    types et un complément pour la Suisse, lorsque leurs conditions d’application sont réunies. Vous pouvez consulter
+    <a href="https://supabase.com/legal/customer-resources/data-processing-addendum">cette annexe</a> et
+    <a href="https://supabase.com/legal/customer-resources/subprocessor-list">la liste des sous-traitants et de leurs pays</a>,
+    ou nous contacter pour obtenir des précisions sur le traitement de vos données.</p>
+  <p>Informations des prestataires : <a href="https://supabase.com/privacy">Supabase</a> et
+    <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub</a>.</p>
 
-        <h2>6. Contact</h2>
-        <p>Pour toute question concernant cette politique de confidentialité, vous pouvez nous contacter directement par e-mail via la page de support de l'application.</p>
-    </div>
+  <h2>7. Comment les données sont-elles protégées ?</h2>
+  <p>Les échanges avec le service Supabase utilisent HTTPS/TLS. Les données associées au compte sont protégées par
+    des contrôles d’accès, notamment des règles de sécurité au niveau des lignes de la base de données. Les accès Pro
+    et les autorisations d’appareil sont vérifiés côté serveur. Ces protections ne constituent pas une promesse de
+    chiffrement de bout en bout ni une garantie d’absence de tout risque.</p>
+
+  <h2>8. Combien de temps les données sont-elles conservées ?</h2>
+  <p>Les données de votre compte, vos tickets et vos préférences sont conservés jusqu’à leur suppression
+    à votre demande ou à la suppression de votre compte. Les données locales restent sur l’appareil tant que
+    vous les conservez ; les limites concernant les copies et exports sont précisées ci-dessous.</p>
+  <p>L’expiration de votre accès Pro ne déclenche pas de suppression automatique des tickets conservés
+    dans le cloud. Elle peut limiter leur consultation ou leur synchronisation selon les droits de votre offre.
+    Aucune purge automatique des comptes pour simple inactivité n’est actuellement appliquée.</p>
+  <p>Les informations de session servent à maintenir les connexions et à gérer leur autorisation. Les journaux
+    techniques et les éventuelles copies internes sont gérés par les prestataires selon les conditions du service,
+    les réglages de conservation applicables et les besoins de sécurité ou obligations légales. Nous n’annonçons pas
+    de délai unique d’effacement pour ces différents traitements. Vous pouvez nous contacter pour obtenir les
+    informations applicables à votre demande ou exercer vos droits.</p>
+  <p>Avant la mise en service des annonces et des achats, cette politique sera actualisée pour préciser les règles
+    de conservation des confirmations publicitaires et des transactions effectivement traitées.</p>
+
+  <h2>9. Suppression du compte et copies de sauvegarde</h2>
+  <p>L’offre Supabase Free actuellement utilisée n’inclut pas les sauvegardes de projet proposées dans son tableau
+    de bord. Cela ne permet pas de conclure à l’absence de toute copie technique interne chez le prestataire.
+    Les sauvegardes exportées par vos soins sont distinctes de ces fonctionnalités serveur.</p>
+  <p>Vous pouvez demander la suppression de votre compte depuis les paramètres de l’application, dans la section
+    consacrée au compte. Cette action vise le compte serveur et les données qui lui sont rattachées,
+    ainsi que les tickets locaux de ce compte sur l’appareil utilisé. En cas d’échec de l’opération,
+    contactez-nous pour faire traiter votre demande.</p>
+  <p>La suppression du compte ne permet pas d’effacer à distance les fichiers exportés ou partagés à votre initiative,
+    ni de garantir l’effacement immédiat des copies déjà présentes sur d’autres appareils ou dans les sauvegardes
+    techniques. Les éventuels achats et données gérés par une boutique relèvent également de ses propres règles.</p>
+  <p>Vous pouvez aussi contacter <a href="mailto:YvanF1@gmail.com">YvanF1@gmail.com</a> pour une demande relative
+    à vos données. Des informations strictement nécessaires à la vérification de votre identité pourront être demandées.</p>
+
+  <h2>10. Quels sont vos droits ?</h2>
+  <p>Les traitements sont soumis à la législation suisse sur la protection des données et, lorsque ses conditions
+    d’application sont réunies, au RGPD européen. Selon la législation applicable et les conditions qu’elle prévoit,
+    vous pouvez demander l’accès à vos données,
+    leur rectification, leur effacement, la limitation de leur traitement ou leur portabilité, et vous opposer à certains
+    traitements. Vous pouvez retirer votre consentement aux traitements fondés sur celui-ci sans remettre en cause
+    la licéité des traitements antérieurs. Vous pouvez contacter le
+    <a href="https://www.edoeb.admin.ch/">Préposé fédéral à la protection des données et à la transparence (PFPDT)</a>
+    en Suisse ou l’autorité de protection des données compétente dans votre situation.</p>
+  <p>Pour exercer ces droits, contactez <a href="mailto:YvanF1@gmail.com">YvanF1@gmail.com</a>.</p>
+
+  <h2>11. Évolution de la politique</h2>
+  <p>Cette politique sera mise à jour lorsque les fonctions proposées ou les traitements évolueront.
+    La version publiée indiquera sa date de mise à jour. Les changements importants seront portés à votre connaissance
+    par un moyen adapté ; un nouveau consentement sera demandé lorsque nécessaire.</p>
+</main>
 </body>
 </html>
-
